@@ -14,7 +14,7 @@ if(a>x){
 Console.Write("x är mindre");
 Console.WriteLine(" ");
     if(a<=x+10){
-        console
+        Console.Write()
     }
 }
 else if(a<x){
