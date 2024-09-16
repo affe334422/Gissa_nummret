@@ -15,13 +15,13 @@ do{
     a = int.Parse(str);
 
 if(a>x){
-    Console.Write("x är mindre");
-    Console.WriteLine(" ");
+    Console.WriteLine("x är mindre än " + str);
+
 }
 
 else if(a<x){
-    Console.Write("x är större");
-    Console.WriteLine(" ");
+    Console.WriteLine("x är större än " + str);
+    
 }
 
 }
