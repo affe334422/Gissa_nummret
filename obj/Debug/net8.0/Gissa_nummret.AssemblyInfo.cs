@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gissa_nummret")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0233df5c3b5ac76ba275e5c9abfa60656ab5538")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fc951af43ae884f2e49c03086246856d217807f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gissa_nummret")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gissa_nummret")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

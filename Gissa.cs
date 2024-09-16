@@ -7,18 +7,18 @@ int x = rnd.Next(1, 101);
 
 Console.WriteLine("Du ska gissa nummret x som är mellan 0-100");
 int a;
+int gis = 1; //antal gissningar
+
 do{
-Console.Write("Gissa: ");
-string str = Console.ReadLine();
-a = int.Parse(str);
+    Console.WriteLine("Gissa " + gis++ + ": ");
+    string str = Console.ReadLine();
+    a = int.Parse(str);
 
 if(a>x){
-Console.Write("x är mindre");
-Console.WriteLine(" ");
-    if(a<=x+10){
-        console
-    }
+    Console.Write("x är mindre");
+    Console.WriteLine(" ");
 }
+
 else if(a<x){
     Console.Write("x är större");
     Console.WriteLine(" ");
@@ -28,4 +28,6 @@ else if(a<x){
 while(a != x);
 
 
-Console.Write("korrekt");
+Console.WriteLine("korrekt");
+gis--;
+Console.WriteLine("Du tog " + gis + " andtal försök");
